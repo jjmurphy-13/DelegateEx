@@ -120,6 +120,10 @@ namespace BookTestClient
                "Ray Duncan", 129.95m, false);
             bookDB.AddBook("Dogbert's Clues for the Clueless",
                "Scott Adams", 12.00m, true);
+            bookDB.AddBook("The Programming Book",
+               "Bob Smith", 22.95m, false);
+            bookDB.AddBook("Calvin and Hobbes",
+               "Bill Watterson", 12.95m, true);
         }
     }
 }
